@@ -398,7 +398,7 @@ namespace LitePlacer
             Thread.Sleep(50);
             Write_m("{\"zsx\",1}",150);
             Thread.Sleep(50);
-            Write_m("{\"zzb\",0}", 150);
+            Write_m("{\"zzb\",1}", 150);
             Thread.Sleep(50);
 
             if (!Write_m("{\"gc\":\"G28.4 Z0\"}", RegularMoveTimeout))
